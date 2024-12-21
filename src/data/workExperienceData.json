@@ -1,0 +1,36 @@
+[
+	{
+		"position": "Consultant Développeur",
+		"company": {
+			"name": "Freelance",
+			"imgSrc": ""
+		},
+		"location": { "city": "Strasbourg", "country": "France" },
+		"startDate": "01/09/2024",
+		"endDate": "",
+		"description": "Accompagnement de PME sur la numérisation de leurs process",
+		"achievements": [
+			"Développement de solutions métier sur mesure",
+			"Déploiement d'ERP Odoo",
+			"Applications web"
+		],
+		"technologies": ["Python", "ReactJS"]
+	},
+	{
+		"position": "Développeur Fullstack stagiaire",
+		"company": {
+			"name": "Adhélios",
+			"imgSrc": ""
+		},
+		"location": { "city": "Strasbourg", "country": "France" },
+		"startDate": "01/04/2024",
+		"endDate": "01/07/2024",
+		"description": "Développement d'une web app pour la saisie de données dans un ERP",
+		"achievements": [
+			"Création d'un modèle pour l'affichage dynamique de contenu en fonction de la taille d'écran",
+			"Mise en place d'un système de contrôle de saisie",
+			"Conception de composants personnalisés réutilisables dans d'autres projets"
+		],
+		"technologies": ["Java", "Kotlin", "Vaadin"]
+	}
+]

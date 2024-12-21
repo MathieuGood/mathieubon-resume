@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "DepartureMono";
+	src: url("/fonts/DepartureMono-Regular.woff2") format("woff2"),
+		url("/fonts/DepartureMono-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Ensure A4 format for printing */
+@page {
+	size: A4;
+	margin: 20mm;
+}
+
+/* Style adjustments for Paged.js */
+body {
+	font-family: Source Sans Pro, sans-serif;
+	line-height: 1.6;
+	background: #f9f9f9;
+}
+
+.resume {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.smallcaps {
+	font-variant: small-caps;
+}
