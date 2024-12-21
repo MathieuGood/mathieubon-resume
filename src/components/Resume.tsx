@@ -1,6 +1,8 @@
 import SectionTitle from "./SectionTitle"
-import WorkExperience from "./WorkExperience"
+import Job from "./Job"
 import workExperienceData from "../data/workExperienceData.json"
+import educationData from "../data/educationData.json"
+import Degree from "./Degree"
 
 const Resume: React.FC = () => {
 	return (
@@ -11,19 +13,18 @@ const Resume: React.FC = () => {
 					<h1 className=" text-5xl mb-2">Mathieu Bon</h1>
 					<p className="text-xl">Consultant Développeur</p>
 				</div>
-				<div className="content bg-gray-400 px-5 py-5">
+				<div className="content bg-white px-5 py-5">
 					<div className="experiences bg-white">
 						<SectionTitle>Parcours professionnel</SectionTitle>
 						{workExperienceData.map(experience => (
-							<WorkExperience data={experience} />
+							<Job data={experience} />
 						))}
 					</div>
 					<div className="education bg-white">
 						<SectionTitle>Formations</SectionTitle>
-						<div className="school1">
-							<h3>Wild Code School</h3>
-							<p>Great diploma</p>
-						</div>
+						{educationData.map(degree => (
+							<Degree data={degree} />
+						))}
 					</div>
 				</div>
 			</div>

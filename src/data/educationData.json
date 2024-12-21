@@ -1,0 +1,27 @@
+[
+	{
+		"school": "SERFA Université de Haute Alsace",
+		"startDate": "01/09/2023",
+		"endDate": "15/07/2024",
+		"diploma": "Licence Professionnelle Développement d'Applications Orientées Objet"
+	},
+	{
+		"school": "Harvard X",
+		"startDate": "01/09/2022",
+		"endDate": "15/12/2023",
+		"diploma": "Certification CS50P Introduction à la programmation avec Python"
+	},
+
+	{
+		"school": "École de Management Strasbourg",
+		"startDate": "01/09/2007",
+		"endDate": "30/06/2010",
+		"diploma": "Master en Management, spécialité Marketing et Négociation"
+	},
+	{
+		"school": "Boston College, Caroll Scholl of Management",
+		"startDate": "01/09/2008",
+		"endDate": "30/06/2009",
+		"diploma": "Échange universitaire de deux semestres à Boston, USA"
+	}
+]

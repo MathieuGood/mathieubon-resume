@@ -1,3 +1,5 @@
+import DateRange from "./DateRange"
+
 interface Company {
 	name: string
 	imgSrc: string
@@ -8,7 +10,7 @@ interface Location {
 	country: string
 }
 
-interface WorkExperienceData {
+interface JobData {
 	position: string
 	company: Company
 	location: Location
@@ -19,24 +21,17 @@ interface WorkExperienceData {
 	technologies: string[]
 }
 
-interface WorkExperienceProps {
-	data: WorkExperienceData
-}
-
-const WorkExperience: React.FC<WorkExperienceProps> = ({ data }) => {
+const Job: React.FC<{ data: JobData }> = ({ data }) => {
 	return (
-		<div className="work-experience mb-3">
-			<p>
-				{data.endDate === ""
-					? `Depuis ${data.startDate} `
-					: `${data.startDate} à ${data.endDate}`}
-			</p>
+		<div className="job mb-3 text-sm">
 			<h3>
 				<span className="font-bold">
 					{data.company.name}, {data.position}
 				</span>{" "}
-				- {data.location.city}
+				{data.location.city}{" "}
+				<DateRange startDate={data.startDate} endDate={data.endDate!} />
 			</h3>
+
 			<p>
 				{data.description}
 				<ul className="list-disc">
@@ -49,4 +44,4 @@ const WorkExperience: React.FC<WorkExperienceProps> = ({ data }) => {
 	)
 }
 
-export default WorkExperience
+export default Job
