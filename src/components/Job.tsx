@@ -18,7 +18,7 @@ interface JobData {
 	endDate?: string
 	description: string
 	achievements: string[]
-	technologies: string[]
+	technologies?: string[]
 }
 
 const Job: React.FC<{ data: JobData }> = ({ data }) => {

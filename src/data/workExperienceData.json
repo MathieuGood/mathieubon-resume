@@ -32,5 +32,45 @@
 			"Conception de composants personnalisés réutilisables dans d'autres projets"
 		],
 		"technologies": ["Java", "Kotlin", "Vaadin"]
+	},
+	{
+		"position": "Directeur",
+		"company": { "name": "Solibio", "imgSrc": "" },
+		"location": { "city": "Strasbourg", "country": "France" },
+		"startDate": "15/12/2018",
+		"endDate": "31/08/2023",
+		"description": "Direction d'une coopérative commercialisant des produits issus de l'Agriculture Biologique local",
+		"achievements": [
+			"Réalisation d'un projet de migration ERP",
+			"Numérisation et modernisation des process sur l'ensemble des services : achats, vente, préparation des commandes, gestion des stocks",
+			"Mise en place de la stratégie et des objectifs annuels",
+			"Établissement et gestion du budget de fonctionnement",
+			"Suivi des grands comptes"
+		]
+	},
+	{
+		"position": "Commercial Marketeur",
+		"company": { "name": "Solibio", "imgSrc": "" },
+		"location": { "city": "Strasbourg", "country": "France" },
+		"startDate": "15/12/2015",
+		"endDate": "15/12/2018",
+		"description": "Lancement de la commercialisation d’une nouvelle gamme de produits",
+		"achievements": [
+			"Rédaction d’un plan marketing pour le lancement d’une nouvelle gamme",
+			"Création d’une marque et des supports de communication"
+		]
 	}
+    ,
+    {
+        "position": "Responsable de secteur GMS",
+		"company": { "name": "Nestlé", "imgSrc": "" },
+		"location": { "city": "Strasbourg", "country": "France" },
+		"startDate": "01/01/2012",
+		"endDate": "15/12/2015",
+		"description": "Développement du chiffres d’affaires des gammes Nutrition Infantile et Chocolats auprès des clients distributeurs",
+		"achievements": [
+			"Mise en place de partenariats et d’opérations promotionnelles",
+			"Négociation des positions des produits en rayon"
+		] 
+    }
 ]
