@@ -12,18 +12,25 @@
 
 @font-face {
 	font-family: "Source Sans Pro";
-	src: url("fonts/SourceSansPro/source-sans-pro-v21-latin-regular.woff") format("woff2");
+	src: url("fonts/SourceSansPro/source-sans-pro-v21-latin-regular.woff") format("woff"),
+		url("fonts/SourceSansPro/source-sans-pro-v21-latin-regular.woff2") format("woff2");
 	font-weight: normal;
 	font-style: normal;
 }
 
-/* Ensure A4 format for printing */
+@font-face {
+	font-family: "Source Sans Pro";
+	src: url("fonts/SourceSansPro/source-sans-pro-v21-latin-700.woff") format("woff"),
+		url("fonts/SourceSansPro/source-sans-pro-v21-latin-700.woff2") format("woff2");
+	font-weight: bold;
+	font-style: normal;
+}
+
 @page {
 	size: A4;
 	margin: 20mm;
 }
 
-/* Style adjustments for Paged.js */
 body {
 	font-family: Source Sans Pro, sans-serif;
 	line-height: 1.6;
