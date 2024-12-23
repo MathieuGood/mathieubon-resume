@@ -21,7 +21,7 @@ const LeftColumn: React.FC = () => {
 			</LeftColumnSection>
 			<LeftColumnSection className="presentation">
 				<LeftColumnTitle>Présentation</LeftColumnTitle>
-				<p className="text-sm">{presentation}</p>
+				<p className="text-sm font-source">{presentation}</p>
 			</LeftColumnSection>
 			<LeftColumnSection className="technologies">
 				<LeftColumnTitle>Technologies</LeftColumnTitle>
