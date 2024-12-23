@@ -1,0 +1,74 @@
+[
+	{
+		"photo": {
+			"imgSrc": "images/photo-mathieu.jpg",
+			"alt": "Portait Mathieu Bon"
+		},
+
+		"contact": [
+			{
+				"text": "06.50.38.44.18",
+				"imgSrc": "vectors/phone.svg"
+			},
+			{
+				"text": "bon.mathieu@gmail.com",
+				"imgSrc": "vectors/email.svg"
+			},
+			{
+				"text": "linkedin.com/in/mathieubon/",
+				"imgSrc": "vectors/linkedin.svg"
+			},
+			{
+				"text": "github.com/MathieuGood",
+				"imgSrc": "vectors/github.svg"
+			},
+			{
+				"text": "mathieubon.com",
+				"imgSrc": "vectors/website.svg"
+			}
+		],
+
+		"presentation": "Après une douzaine d’années d’expériences dans le commerce puis dans la direction d ’entreprise, j’ai choisi de me reconvertir dans le développement par passion pour l’informatique depuis mon plus jeune âge.",
+
+		"technologies": [
+			{
+				"text": "Python",
+				"imgSrc": "vectors/python.svg"
+			},
+			{
+				"text": "Java",
+				"imgSrc": "vectors/java.svg"
+			},
+			{
+				"text": "ReactJS/ReactNative",
+				"imgSrc": "vectors/react.svg"
+			},
+			{
+				"text": "MariaDB/PostgreSQL",
+				"imgSrc": "vectors/database.svg"
+			}
+		],
+
+		"languages": [
+			{
+				"text": "Anglais niveau C2 (bilingue)",
+				"imgSrc": "vectors/us-flag.svg"
+			},
+			{
+				"text": "Allemand niveau B1",
+				"imgSrc": "vectors/de-flag.svg"
+			}
+		],
+
+		"hobbies": [
+			{
+				"text": "Musique : Guitariste dans plusieurs groupes de rock depuis 2010 avec plus de 150 concerts à mon actif",
+				"imgSrc": "vectors/guitar.svg"
+			},
+			{
+				"text": "Skateboard d’endurance : participation à compétitions internationales depuis 2017, détenteur du record de France sur épreuves Marathon, 6H et 24H",
+				"imgSrc": "vectors/skateboard.svg"
+			}
+		]
+	}
+]
