@@ -1,7 +1,0 @@
-export REMOTE_USER="ubuntu"
-export REMOTE_HOST="51.91.98.35"
-export TAR_FILE="mathieubon-resume.tar"
-export REMOTE_DIR="/home/$REMOTE_USER/docker_images"
-export DOCKER_IMAGE="mathieubon-resume"
-export REMOTE_CONTAINER_NAME="mathieubon-resume-container"
-export PORT="9002"
