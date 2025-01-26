@@ -108,7 +108,7 @@ ssh $REMOTE_USER@$REMOTE_HOST <<EOF
   docker load -i \$REMOTE_DIR/\$TAR_FILE || { error "Failed to load Docker image"; }
 
   log "Running the Docker container..."
-  docker run -d --name \$REMOTE_CONTAINER_NAME -p \$PORT:80 \$DOCKER_IMAGE
+  docker run -d --name \$REMOTE_CONTAINER_NAME -p 127.0.0.1:\$PORT:80 \$DOCKER_IMAGE
 
   docker ps
 
