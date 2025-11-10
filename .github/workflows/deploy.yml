@@ -23,6 +23,13 @@ jobs:
 
             - name: Build React app
               run: npm run build
+            
+            - name: Debug SSH key format
+              run: |
+                echo "${{ secrets.VPS_SSH_KEY }}" | head -n 5
+                echo "-----"
+                echo "${{ secrets.VPS_SSH_KEY }}" | tail -n 5
+
 
             - name: Deploy via SSH (rsync incremental)
               uses: easingthemes/ssh-deploy@v5.1.0
