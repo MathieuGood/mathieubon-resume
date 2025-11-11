@@ -31,5 +31,5 @@ jobs:
                   REMOTE_HOST: ${{ secrets.VPS_HOST }}
                   REMOTE_USER: ${{ secrets.VPS_USER }}
                   TARGET: ${{ secrets.VPS_PATH }}
-                  SOURCE: dist/
+                  SOURCE: dist/ 
                   ARGS: "-avz --delete"
