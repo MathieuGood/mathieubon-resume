@@ -23,7 +23,13 @@ export interface Hobby {
 	imgSrc: string
 }
 
+export interface Header {
+	name : string
+	title : string
+}
+
 export interface ProfileData {
+	header : Header
 	photo: Photo
 	contact: Contact[]
 	presentation: string

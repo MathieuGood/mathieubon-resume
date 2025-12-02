@@ -6,10 +6,10 @@ import IconWithText from "./IconWithText"
 
 const LeftColumn: React.FC = () => {
 	const { contact, presentation, technologies, languages, hobbies } =
-		profileData[0] as ProfileData
+		profileData as ProfileData
 
 	return (
-		<div className="left-column bg-custom-yellow px-5 py-5 ">
+		<div className="left-column h-full bg-custom-yellow px-5 py-5 ">
 			<LeftColumnSection className="photo flex justify-center">
 				<img src="images/photo-mathieu.jpg" className="w-48" />
 			</LeftColumnSection>

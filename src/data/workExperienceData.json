@@ -1,5 +1,22 @@
 [
 	{
+		"position": "Analyste Développeur ERP",
+		"company": {
+			"name": "Ikariss",
+			"imgSrc": ""
+		},
+		"location": { "city": "Geispolsheim", "country": "France" },
+		"startDate": "27/02/2024",
+		"endDate": "Présent",
+		"description": "",
+		"achievements": [
+			"Développement de solutions métier sur mesure",
+			"Déploiement d'ERP Odoo",
+			"Applications web"
+		],
+		"technologies": ["Python", "ReactJS"]
+	},
+	{
 		"position": "Consultant Développeur",
 		"company": {
 			"name": "Freelance",
@@ -7,7 +24,7 @@
 		},
 		"location": { "city": "Strasbourg", "country": "France" },
 		"startDate": "01/09/2024",
-		"endDate": "",
+		"endDate": "Présent",
 		"description": "Accompagnement de PME sur la numérisation de leurs process",
 		"achievements": [
 			"Développement de solutions métier sur mesure",
@@ -41,7 +58,7 @@
 		"endDate": "31/08/2023",
 		"description": "Direction d'une coopérative commercialisant des produits issus de l'Agriculture Biologique locale",
 		"achievements": [
-			"Réalisation d'un projet de migration ERP",
+			"Pilotage d'un projet de migration ERP",
 			"Numérisation et modernisation des process sur l'ensemble des services : achats, vente, préparation des commandes, gestion des stocks",
 			"Mise en place de la stratégie et des objectifs annuels",
 			"Établissement et gestion du budget de fonctionnement",
@@ -59,10 +76,9 @@
 			"Rédaction d’un plan marketing pour le lancement d’une nouvelle gamme",
 			"Création d’une marque et des supports de communication"
 		]
-	}
-    ,
-    {
-        "position": "Responsable de secteur GMS",
+	},
+	{
+		"position": "Responsable de secteur GMS",
 		"company": { "name": "Nestlé", "imgSrc": "" },
 		"location": { "city": "Strasbourg", "country": "France" },
 		"startDate": "01/01/2012",
@@ -71,6 +87,6 @@
 		"achievements": [
 			"Mise en place de partenariats et d’opérations promotionnelles",
 			"Négociation des positions des produits en rayon"
-		] 
-    }
+		]
+	}
 ]
