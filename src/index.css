@@ -28,7 +28,7 @@
 
 @page {
 	size: A4;
-	margin: 20mm;
+	margin: 0;
 }
 
 body {
@@ -36,9 +36,29 @@ body {
 	background: #f9f9f9;
 }
 
+@media print {
+	body {
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+	.resume {
+		max-width: none;
+		width: 210mm;
+		min-height: 297mm;
+		margin: 0 auto;
+	}
+}
+
+@media print {
+	.no-print {
+		display: none;
+	}
+}
+
 .resume {
 	max-width: 800px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .smallcaps {
