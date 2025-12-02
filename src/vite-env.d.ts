@@ -9,3 +9,5 @@ declare module "pagedjs" {
 		): Promise<any>
 	}
 }
+
+declare module "html2pdf.js"
