@@ -36,11 +36,13 @@ function App() {
         >
           Imprimer
         </button>
-        {/* <button
-					onClick={handleSavePDF}
-					className="bg-gray-800 text-white text-xs md:text-sm px-4 py-2 rounded hover:bg-gray-700">
-					PDF
-				</button> */}
+        <button
+          onClick={handleSavePDF}
+          // Hidden classname to hide the PDF button until the feature is ready
+          className="hidden bg-gray-800 text-white text-xs md:text-sm px-4 py-2 rounded hover:bg-gray-700"
+        >
+          PDF
+        </button>
       </div>
       <Resume />
     </div>
