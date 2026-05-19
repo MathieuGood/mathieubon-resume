@@ -5,16 +5,21 @@
 			"name": "Ikariss",
 			"imgSrc": ""
 		},
-		"location": { "city": "Geispolsheim", "country": "France" },
-		"startDate": "27/02/2024",
+		"location": {
+			"city": "Geispolsheim",
+			"country": "France"
+		},
+		"startDate": "27/02/2025",
 		"endDate": "",
 		"description": "",
 		"achievements": [
-			"Développement de solutions métier sur mesure",
-			"Déploiement d'ERP Odoo",
-			"Applications web"
+			"Développement de fonctionnalités spécifiques sur l'ERP Divalto",
+			"Création et maintenace d'outils internes (PHP/Python/MariaDB)"
 		],
-		"technologies": ["Python", "ReactJS"]
+		"technologies": [
+			"Divalto",
+			"ReactJS"
+		]
 	},
 	{
 		"position": "Consultant Développeur",
@@ -22,7 +27,10 @@
 			"name": "Freelance",
 			"imgSrc": ""
 		},
-		"location": { "city": "Strasbourg", "country": "France" },
+		"location": {
+			"city": "Strasbourg",
+			"country": "France"
+		},
 		"startDate": "01/09/2024",
 		"endDate": "",
 		"description": "Accompagnement de PME sur la numérisation de leurs process",
@@ -31,7 +39,10 @@
 			"Déploiement d'ERP Odoo",
 			"Applications web"
 		],
-		"technologies": ["Python", "ReactJS"]
+		"technologies": [
+			"Python",
+			"ReactJS"
+		]
 	},
 	{
 		"position": "Développeur Fullstack stagiaire",
@@ -39,7 +50,10 @@
 			"name": "Adhélios",
 			"imgSrc": ""
 		},
-		"location": { "city": "Strasbourg", "country": "France" },
+		"location": {
+			"city": "Strasbourg",
+			"country": "France"
+		},
 		"startDate": "01/04/2024",
 		"endDate": "01/07/2024",
 		"description": "Développement d'une web app pour la saisie de données dans un ERP",
@@ -48,12 +62,22 @@
 			"Mise en place d'un système de contrôle de saisie",
 			"Conception de composants personnalisés réutilisables dans d'autres projets"
 		],
-		"technologies": ["Java", "Kotlin", "Vaadin"]
+		"technologies": [
+			"Java",
+			"Kotlin",
+			"Vaadin"
+		]
 	},
 	{
 		"position": "Directeur",
-		"company": { "name": "Solibio", "imgSrc": "" },
-		"location": { "city": "Strasbourg", "country": "France" },
+		"company": {
+			"name": "Solibio",
+			"imgSrc": ""
+		},
+		"location": {
+			"city": "Strasbourg",
+			"country": "France"
+		},
 		"startDate": "15/12/2018",
 		"endDate": "31/08/2023",
 		"description": "Direction d'une coopérative commercialisant des produits issus de l'Agriculture Biologique locale",
@@ -67,8 +91,14 @@
 	},
 	{
 		"position": "Commercial Marketeur",
-		"company": { "name": "Solibio", "imgSrc": "" },
-		"location": { "city": "Strasbourg", "country": "France" },
+		"company": {
+			"name": "Solibio",
+			"imgSrc": ""
+		},
+		"location": {
+			"city": "Strasbourg",
+			"country": "France"
+		},
 		"startDate": "15/12/2015",
 		"endDate": "15/12/2018",
 		"description": "Lancement de la commercialisation d’une nouvelle gamme de produits",
@@ -79,8 +109,14 @@
 	},
 	{
 		"position": "Responsable de secteur GMS",
-		"company": { "name": "Nestlé", "imgSrc": "" },
-		"location": { "city": "Strasbourg", "country": "France" },
+		"company": {
+			"name": "Nestlé",
+			"imgSrc": ""
+		},
+		"location": {
+			"city": "Strasbourg",
+			"country": "France"
+		},
 		"startDate": "01/01/2012",
 		"endDate": "15/12/2015",
 		"description": "Développement du chiffres d’affaires des gammes Nutrition Infantile et Chocolats auprès des clients distributeurs",
