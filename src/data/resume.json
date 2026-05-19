@@ -5,14 +5,28 @@
 		"image": "images/photo-mathieu.jpg",
 		"summary": "Avec mon expérience en commerce et direction d'enterprise, j'aborde avec un regard affuté l'optimisation des process et la mise en place d'outils adaptés.",
 		"contact": [
-			{ "text": "06.50.38.44.18", "imgSrc": "vectors/phone.svg" },
-			{ "text": "bon.mathieu@gmail.com", "imgSrc": "vectors/email.svg" },
-			{ "text": "linkedin.com/in/mathieubon/", "imgSrc": "vectors/linkedin.svg" },
-			{ "text": "github.com/MathieuGood", "imgSrc": "vectors/github.svg" },
-			{ "text": "mathieubon.com", "imgSrc": "vectors/website.svg" }
+			{
+				"text": "06.50.38.44.18",
+				"imgSrc": "vectors/phone.svg"
+			},
+			{
+				"text": "bon.mathieu@gmail.com",
+				"imgSrc": "vectors/email.svg"
+			},
+			{
+				"text": "linkedin.com/in/mathieubon/",
+				"imgSrc": "vectors/linkedin.svg"
+			},
+			{
+				"text": "github.com/MathieuGood",
+				"imgSrc": "vectors/github.svg"
+			},
+			{
+				"text": "mathieubon.com",
+				"imgSrc": "vectors/website.svg"
+			}
 		]
 	},
-
 	"work": [
 		{
 			"company": "Ikariss",
@@ -25,7 +39,10 @@
 				"Développement de fonctionnalités spécifiques sur l'ERP Divalto",
 				"Création et maintenace d'outils internes (PHP/Python/MariaDB)"
 			],
-			"keywords": ["Divalto", "ReactJS"]
+			"keywords": [
+				"Divalto",
+				"ReactJS"
+			]
 		},
 		{
 			"company": "Freelance",
@@ -39,7 +56,10 @@
 				"Déploiement d'ERP Odoo",
 				"Applications web"
 			],
-			"keywords": ["Python", "ReactJS"]
+			"keywords": [
+				"Python",
+				"ReactJS"
+			]
 		},
 		{
 			"company": "Adhélios",
@@ -53,7 +73,11 @@
 				"Mise en place d'un système de contrôle de saisie",
 				"Conception de composants personnalisés réutilisables dans d'autres projets"
 			],
-			"keywords": ["Java", "Kotlin", "Vaadin"]
+			"keywords": [
+				"Java",
+				"Kotlin",
+				"Vaadin"
+			]
 		},
 		{
 			"company": "Solibio",
@@ -95,7 +119,6 @@
 			]
 		}
 	],
-
 	"education": [
 		{
 			"institution": "Conservatoire National des Arts et Métiers",
@@ -128,19 +151,36 @@
 			"endDate": "2009-06-30"
 		}
 	],
-
 	"skills": [
-		{ "name": "Python", "imgSrc": "vectors/python.svg" },
-		{ "name": "Java", "imgSrc": "vectors/java.svg" },
-		{ "name": "ReactJS/ReactNative", "imgSrc": "vectors/react.svg" },
-		{ "name": "MariaDB/PostgreSQL", "imgSrc": "vectors/database.svg" }
+		{
+			"name": "Python",
+			"imgSrc": "vectors/python.svg"
+		},
+		{
+			"name": "Java",
+			"imgSrc": "vectors/java.svg"
+		},
+		{
+			"name": "ReactJS/ReactNative",
+			"imgSrc": "vectors/react.svg"
+		},
+		{
+			"name": "MariaDB/PostgreSQL",
+			"imgSrc": "vectors/database.svg"
+		}
 	],
-
 	"languages": [
-		{ "name": "Anglais", "fluency": "C2 (bilingue)", "imgSrc": "vectors/us-flag.svg" },
-		{ "name": "Allemand", "fluency": "B1", "imgSrc": "vectors/de-flag.svg" }
+		{
+			"name": "Anglais",
+			"fluency": "C2 (bilingue)",
+			"imgSrc": "vectors/us-flag.svg"
+		},
+		{
+			"name": "Allemand",
+			"fluency": "B1",
+			"imgSrc": "vectors/de-flag.svg"
+		}
 	],
-
 	"interests": [
 		{
 			"name": "Musique : Guitariste dans plusieurs groupes de rock depuis 2010 avec plus de 150 concerts à mon actif",
