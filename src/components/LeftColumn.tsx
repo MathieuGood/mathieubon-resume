@@ -1,11 +1,10 @@
 import LeftColumnSection from "./LeftColumnSection"
 import LeftColumnTitle from "./LeftColumnTitle"
-import resumeData from "../data/resume.json"
-import { type ResumeData } from "../interfaces/resume"
+import resumeData from "../data/resumeData"
 import IconWithText from "./IconWithText"
 
 const LeftColumn = () => {
-	const { basics, skills, languages, interests } = resumeData as unknown as ResumeData
+	const { basics, skills, languages, interests } = resumeData
 
 	return (
 		<div className="left-column h-full flex-1 bg-custom-yellow px-5 py-5 overflow-hidden">
@@ -15,7 +14,7 @@ const LeftColumn = () => {
 			<LeftColumnSection className="contact">
 				<LeftColumnTitle>Contact</LeftColumnTitle>
 				{basics.contact.map(item => (
-					<IconWithText iconSrc={item.imgSrc} text={item.text} />
+					<IconWithText key={item.text} iconSrc={item.imgSrc} text={item.text} />
 				))}
 			</LeftColumnSection>
 			<LeftColumnSection className="presentation">
@@ -25,19 +24,19 @@ const LeftColumn = () => {
 			<LeftColumnSection className="technologies">
 				<LeftColumnTitle>Technologies</LeftColumnTitle>
 				{skills.map(skill => (
-					<IconWithText iconSrc={skill.imgSrc} text={skill.name} />
+					<IconWithText key={skill.name} iconSrc={skill.imgSrc} text={skill.name} />
 				))}
 			</LeftColumnSection>
 			<LeftColumnSection className="languages">
 				<LeftColumnTitle>Langues étrangères</LeftColumnTitle>
 				{languages.map(lang => (
-					<IconWithText iconSrc={lang.imgSrc} text={`${lang.name} ${lang.fluency}`} />
+					<IconWithText key={lang.name} iconSrc={lang.imgSrc} text={`${lang.name} ${lang.fluency}`} />
 				))}
 			</LeftColumnSection>
 			<LeftColumnSection className="hobbies">
 				<LeftColumnTitle>Centres d'intérêt</LeftColumnTitle>
 				{interests.map(interest => (
-					<IconWithText iconSrc={interest.imgSrc} text={interest.name} />
+					<IconWithText key={interest.imgSrc} iconSrc={interest.imgSrc} text={interest.name} />
 				))}
 			</LeftColumnSection>
 		</div>

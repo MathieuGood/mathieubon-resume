@@ -3,21 +3,22 @@ import SectionTitle from "./SectionTitle"
 import Job from "./Job"
 import Degree from "./Degree"
 import LeftColumn from "./LeftColumn"
-import resumeData from "../data/resume.json"
-import { type ResumeData } from "../interfaces/resume"
+import resumeData from "../data/resumeData"
 
 const Resume = () => {
-	const { basics, work, education } = resumeData as unknown as ResumeData
+	const { basics, work, education } = resumeData
 	const [scale, setScale] = useState(1)
 	const resumeRef = useRef<HTMLDivElement>(null)
 
 	useEffect(() => {
-		const el = resumeRef.current
-		if (!el) return
-		// 1123px is approx 297mm at 96dpi — 1080px gives a safety buffer
-		if (el.scrollHeight > 1080) {
-			setScale(Math.max(0.85, 1080 / el.scrollHeight))
-		}
+		document.fonts.ready.then(() => {
+			const el = resumeRef.current
+			if (!el) return
+			// 1123px is approx 297mm at 96dpi — 1080px gives a safety buffer
+			if (el.scrollHeight > 1080) {
+				setScale(Math.max(0.85, 1080 / el.scrollHeight))
+			}
+		})
 	}, [])
 
 	return (
@@ -34,13 +35,13 @@ const Resume = () => {
 					<div className="experiences bg-white">
 						<SectionTitle>Parcours professionnel</SectionTitle>
 						{work.map(job => (
-							<Job data={job} />
+							<Job key={`${job.company}-${job.position}`} data={job} />
 						))}
 					</div>
 					<div className="education bg-white">
 						<SectionTitle>Formations</SectionTitle>
 						{education.map(degree => (
-							<Degree data={degree} />
+							<Degree key={degree.institution} data={degree} />
 						))}
 					</div>
 				</div>

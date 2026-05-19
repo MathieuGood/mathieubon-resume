@@ -15,8 +15,8 @@ const Job = ({ data }: { data: WorkEntry }) => {
 			<p>
 				{data.summary}
 				<ul className="list-disc">
-					{data.highlights.map(highlight => (
-						<li className="ml-5">{highlight}</li>
+					{data.highlights.map((highlight, i) => (
+						<li key={i} className="ml-5">{highlight}</li>
 					))}
 				</ul>
 			</p>
