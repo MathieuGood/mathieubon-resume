@@ -1,18 +1,11 @@
 import DateRange from "./DateRange"
+import { type EducationEntry } from "../interfaces/resume"
 
-interface DegreeData {
-	school: string
-	startDate: string
-	endDate: string
-	diploma: string
-	additionalInfo?: string
-}
-
-const Degree: React.FC<{ data: DegreeData }> = ({ data }) => {
+const Degree = ({ data }: { data: EducationEntry }) => {
 	return (
 		<div className="degree mb-3 text-sm">
 			<h3>
-				<span className="font-bold">{data.school}</span>{" "}
+				<span className="font-bold">{data.institution}</span>{" "}
 				<DateRange startDate={data.startDate} endDate={data.endDate} />
 			</h3>
 

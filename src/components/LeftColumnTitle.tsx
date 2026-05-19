@@ -1,6 +1,6 @@
-import React from "react"
+import { type ReactNode } from "react"
 
-const LeftColumnTitle: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+const LeftColumnTitle = ({ children }: { children: ReactNode }) => {
 	return <h2 className="font-bold uppercase mb-1">{children}</h2>
 }
 

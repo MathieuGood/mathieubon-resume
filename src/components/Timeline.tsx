@@ -41,7 +41,7 @@ const timelineData: TimelineEvent[] = [
 	}
 ]
 
-const Timeline: React.FC = () => {
+const Timeline = () => {
 	return (
 		<div className="relative flex flex-col items-center w-11/12 mx-auto">
 			{/* Vertical line */}

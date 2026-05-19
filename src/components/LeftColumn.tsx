@@ -1,44 +1,43 @@
 import LeftColumnSection from "./LeftColumnSection"
 import LeftColumnTitle from "./LeftColumnTitle"
-import profileData from "../data/profileData.json"
-import { ProfileData } from "../interfaces/profileData"
+import resumeData from "../data/resume.json"
+import { type ResumeData } from "../interfaces/resume"
 import IconWithText from "./IconWithText"
 
-const LeftColumn: React.FC = () => {
-	const { contact, presentation, technologies, languages, hobbies } =
-		profileData as ProfileData
+const LeftColumn = () => {
+	const { basics, skills, languages, interests } = resumeData as unknown as ResumeData
 
 	return (
 		<div className="left-column h-full flex-1 bg-custom-yellow px-5 py-5 overflow-hidden">
 			<LeftColumnSection className="photo flex justify-center">
-				<img src="images/photo-mathieu.jpg" className="w-48" />
+				<img src={basics.image} className="w-48" />
 			</LeftColumnSection>
 			<LeftColumnSection className="contact">
 				<LeftColumnTitle>Contact</LeftColumnTitle>
-				{contact.map(contactItem => (
-					<IconWithText iconSrc={contactItem.imgSrc} text={contactItem.text} />
+				{basics.contact.map(item => (
+					<IconWithText iconSrc={item.imgSrc} text={item.text} />
 				))}
 			</LeftColumnSection>
 			<LeftColumnSection className="presentation">
 				<LeftColumnTitle>Présentation</LeftColumnTitle>
-				<p className="text-sm font-source">{presentation}</p>
+				<p className="text-sm font-source">{basics.summary}</p>
 			</LeftColumnSection>
 			<LeftColumnSection className="technologies">
 				<LeftColumnTitle>Technologies</LeftColumnTitle>
-				{technologies.map(technology => (
-					<IconWithText iconSrc={technology.imgSrc} text={technology.text} />
+				{skills.map(skill => (
+					<IconWithText iconSrc={skill.imgSrc} text={skill.name} />
 				))}
 			</LeftColumnSection>
 			<LeftColumnSection className="languages">
 				<LeftColumnTitle>Langues étrangères</LeftColumnTitle>
-				{languages.map(language => (
-					<IconWithText iconSrc={language.imgSrc} text={language.text} />
+				{languages.map(lang => (
+					<IconWithText iconSrc={lang.imgSrc} text={`${lang.name} ${lang.fluency}`} />
 				))}
 			</LeftColumnSection>
 			<LeftColumnSection className="hobbies">
 				<LeftColumnTitle>Centres d'intérêt</LeftColumnTitle>
-				{hobbies.map(hobby => (
-					<IconWithText iconSrc={hobby.imgSrc} text={hobby.text} />
+				{interests.map(interest => (
+					<IconWithText iconSrc={interest.imgSrc} text={interest.name} />
 				))}
 			</LeftColumnSection>
 		</div>

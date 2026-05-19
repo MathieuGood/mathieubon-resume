@@ -1,15 +1,13 @@
 import { useState, useEffect, useRef } from "react"
 import SectionTitle from "./SectionTitle"
 import Job from "./Job"
-import workExperienceData from "../data/workExperienceData.json"
-import educationData from "../data/educationData.json"
 import Degree from "./Degree"
 import LeftColumn from "./LeftColumn"
-import { ProfileData } from "../interfaces/profileData"
-import profileData from "../data/profileData.json"
+import resumeData from "../data/resume.json"
+import { type ResumeData } from "../interfaces/resume"
 
-const Resume: React.FC = () => {
-	const { header } = profileData as ProfileData
+const Resume = () => {
+	const { basics, work, education } = resumeData as unknown as ResumeData
 	const [scale, setScale] = useState(1)
 	const resumeRef = useRef<HTMLDivElement>(null)
 
@@ -29,19 +27,19 @@ const Resume: React.FC = () => {
 			</div>
 			<div className="main-column w-2/3 h-full">
 				<div className="hero bg-custom-gray h-36 pr-8 py-6 font-mono text-right text-custom-yellow">
-					<h1 className=" text-5xl mb-2">{header.name}</h1>
-					<p className="text-xl">{header.title}</p>
+					<h1 className=" text-5xl mb-2">{basics.name}</h1>
+					<p className="text-xl">{basics.label}</p>
 				</div>
 				<div className="content bg-white px-5 py-5" style={{ zoom: scale }}>
 					<div className="experiences bg-white">
 						<SectionTitle>Parcours professionnel</SectionTitle>
-						{workExperienceData.map(experience => (
-							<Job data={experience} />
+						{work.map(job => (
+							<Job data={job} />
 						))}
 					</div>
 					<div className="education bg-white">
 						<SectionTitle>Formations</SectionTitle>
-						{educationData.map(degree => (
+						{education.map(degree => (
 							<Degree data={degree} />
 						))}
 					</div>

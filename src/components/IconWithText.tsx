@@ -1,4 +1,4 @@
-const IconWithText: React.FC<{ iconSrc: string; text: string }> = ({ iconSrc, text }) => {
+const IconWithText = ({ iconSrc, text }: { iconSrc: string; text: string }) => {
 	return (
 		<div className="flex items-center text-sm ">
 			<div className="w-6 flex-shrink-0 ">

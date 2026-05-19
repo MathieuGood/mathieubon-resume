@@ -1,7 +1,6 @@
-const LeftColumnSection: React.FC<{ children: React.ReactNode; className: string }> = ({
-	children,
-	className
-}) => {
+import { type ReactNode } from "react"
+
+const LeftColumnSection = ({ children, className }: { children: ReactNode; className: string }) => {
 	return <div className={`py-1 ${className}`}>{children}</div>
 }
 export default LeftColumnSection

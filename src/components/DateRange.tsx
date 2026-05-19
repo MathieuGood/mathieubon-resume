@@ -5,7 +5,7 @@ interface DateRangeProps {
 	endDate: string
 }
 
-const DateRange: React.FC<DateRangeProps> = ({ startDate, endDate }) => {
+const DateRange = ({ startDate, endDate }: DateRangeProps) => {
 	return (
 		<span>
 			{endDate === ""

@@ -1,42 +1,22 @@
 import DateRange from "./DateRange"
+import { type WorkEntry } from "../interfaces/resume"
 
-interface Company {
-	name: string
-	imgSrc: string
-}
-
-interface Location {
-	city: string
-	country: string
-}
-
-interface JobData {
-	position: string
-	company: Company
-	location: Location
-	startDate: string
-	endDate?: string
-	description: string
-	achievements: string[]
-	technologies?: string[]
-}
-
-const Job: React.FC<{ data: JobData }> = ({ data }) => {
+const Job = ({ data }: { data: WorkEntry }) => {
 	return (
 		<div className="job mb-3 text-sm">
 			<h3>
 				<span className="font-bold">
-					{data.company.name}, {data.position}
+					{data.company}, {data.position}
 				</span>{" "}
-				{data.location.city}{" "}
-				<DateRange startDate={data.startDate} endDate={data.endDate!} />
+				{data.location}{" "}
+				<DateRange startDate={data.startDate} endDate={data.endDate} />
 			</h3>
 
 			<p>
-				{data.description}
+				{data.summary}
 				<ul className="list-disc">
-					{data.achievements.map(achievement => (
-						<li className="ml-5">{achievement}</li>
+					{data.highlights.map(highlight => (
+						<li className="ml-5">{highlight}</li>
 					))}
 				</ul>
 			</p>

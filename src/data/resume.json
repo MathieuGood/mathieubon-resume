@@ -1,0 +1,154 @@
+{
+	"basics": {
+		"name": "Mathieu Bon",
+		"label": "Analyste Développeur",
+		"image": "images/photo-mathieu.jpg",
+		"summary": "Avec mon expérience en commerce et direction d'enterprise, j'aborde avec un regard affuté l'optimisation des process et la mise en place d'outils adaptés.",
+		"contact": [
+			{ "text": "06.50.38.44.18", "imgSrc": "vectors/phone.svg" },
+			{ "text": "bon.mathieu@gmail.com", "imgSrc": "vectors/email.svg" },
+			{ "text": "linkedin.com/in/mathieubon/", "imgSrc": "vectors/linkedin.svg" },
+			{ "text": "github.com/MathieuGood", "imgSrc": "vectors/github.svg" },
+			{ "text": "mathieubon.com", "imgSrc": "vectors/website.svg" }
+		]
+	},
+
+	"work": [
+		{
+			"company": "Ikariss",
+			"position": "Analyste Développeur ERP",
+			"location": "Geispolsheim, France",
+			"startDate": "2025-02-27",
+			"endDate": "",
+			"summary": "",
+			"highlights": [
+				"Développement de fonctionnalités spécifiques sur l'ERP Divalto",
+				"Création et maintenace d'outils internes (PHP/Python/MariaDB)"
+			],
+			"keywords": ["Divalto", "ReactJS"]
+		},
+		{
+			"company": "Freelance",
+			"position": "Consultant Développeur",
+			"location": "Strasbourg, France",
+			"startDate": "2024-09-01",
+			"endDate": "",
+			"summary": "Accompagnement de PME sur la numérisation de leurs process",
+			"highlights": [
+				"Développement de solutions métier sur mesure",
+				"Déploiement d'ERP Odoo",
+				"Applications web"
+			],
+			"keywords": ["Python", "ReactJS"]
+		},
+		{
+			"company": "Adhélios",
+			"position": "Développeur Fullstack stagiaire",
+			"location": "Strasbourg, France",
+			"startDate": "2024-04-01",
+			"endDate": "2024-07-01",
+			"summary": "Développement d'une web app pour la saisie de données dans un ERP",
+			"highlights": [
+				"Création d'un modèle pour l'affichage dynamique de contenu en fonction de la taille d'écran",
+				"Mise en place d'un système de contrôle de saisie",
+				"Conception de composants personnalisés réutilisables dans d'autres projets"
+			],
+			"keywords": ["Java", "Kotlin", "Vaadin"]
+		},
+		{
+			"company": "Solibio",
+			"position": "Directeur",
+			"location": "Strasbourg, France",
+			"startDate": "2018-12-15",
+			"endDate": "2023-08-31",
+			"summary": "Direction d'une coopérative commercialisant des produits issus de l'Agriculture Biologique locale",
+			"highlights": [
+				"Pilotage d'un projet de migration ERP",
+				"Numérisation et modernisation des process sur l'ensemble des services : achats, vente, préparation des commandes, gestion des stocks",
+				"Mise en place de la stratégie et des objectifs annuels",
+				"Établissement et gestion du budget de fonctionnement",
+				"Suivi des grands comptes"
+			]
+		},
+		{
+			"company": "Solibio",
+			"position": "Commercial Marketeur",
+			"location": "Strasbourg, France",
+			"startDate": "2015-12-15",
+			"endDate": "2018-12-15",
+			"summary": "Lancement de la commercialisation d'une nouvelle gamme de produits",
+			"highlights": [
+				"Rédaction d'un plan marketing pour le lancement d'une nouvelle gamme",
+				"Création d'une marque et des supports de communication"
+			]
+		},
+		{
+			"company": "Nestlé",
+			"position": "Responsable de secteur GMS",
+			"location": "Strasbourg, France",
+			"startDate": "2012-01-01",
+			"endDate": "2015-12-15",
+			"summary": "Développement du chiffres d'affaires des gammes Nutrition Infantile et Chocolats auprès des clients distributeurs",
+			"highlights": [
+				"Mise en place de partenariats et d'opérations promotionnelles",
+				"Négociation des positions des produits en rayon"
+			]
+		}
+	],
+
+	"education": [
+		{
+			"institution": "Conservatoire National des Arts et Métiers",
+			"diploma": "Diplôme d'Ingénieur en Informatique (cours du soir)",
+			"startDate": "2024-02-01",
+			"endDate": ""
+		},
+		{
+			"institution": "SERFA Université de Haute Alsace",
+			"diploma": "Licence Professionnelle Développement d'Applications Orientées Objet",
+			"startDate": "2023-09-01",
+			"endDate": "2024-07-15"
+		},
+		{
+			"institution": "Harvard X",
+			"diploma": "Certification CS50P Introduction à la programmation avec Python",
+			"startDate": "2022-09-01",
+			"endDate": "2023-12-15"
+		},
+		{
+			"institution": "École de Management Strasbourg",
+			"diploma": "Master en Management, spécialité Marketing et Négociation",
+			"startDate": "2007-09-01",
+			"endDate": "2010-06-30"
+		},
+		{
+			"institution": "Boston College, Caroll Scholl of Management",
+			"diploma": "Échange universitaire de deux semestres à Boston, USA",
+			"startDate": "2008-09-01",
+			"endDate": "2009-06-30"
+		}
+	],
+
+	"skills": [
+		{ "name": "Python", "imgSrc": "vectors/python.svg" },
+		{ "name": "Java", "imgSrc": "vectors/java.svg" },
+		{ "name": "ReactJS/ReactNative", "imgSrc": "vectors/react.svg" },
+		{ "name": "MariaDB/PostgreSQL", "imgSrc": "vectors/database.svg" }
+	],
+
+	"languages": [
+		{ "name": "Anglais", "fluency": "C2 (bilingue)", "imgSrc": "vectors/us-flag.svg" },
+		{ "name": "Allemand", "fluency": "B1", "imgSrc": "vectors/de-flag.svg" }
+	],
+
+	"interests": [
+		{
+			"name": "Musique : Guitariste dans plusieurs groupes de rock depuis 2010 avec plus de 150 concerts à mon actif",
+			"imgSrc": "vectors/guitar.svg"
+		},
+		{
+			"name": "Skateboard d'endurance : participation à compétitions internationales depuis 2017, détenteur du record de France sur épreuves Marathon, 6H et 24H",
+			"imgSrc": "vectors/skateboard.svg"
+		}
+	]
+}

@@ -1,4 +1,6 @@
-const SectionTitle: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+import { type ReactNode } from "react"
+
+const SectionTitle = ({ children }: { children: ReactNode }) => {
 	return (
 		<>
 			<h2 className="font-bold smallcaps">{children}</h2>
