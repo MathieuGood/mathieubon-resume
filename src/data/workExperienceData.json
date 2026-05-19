@@ -13,7 +13,7 @@
 		"endDate": "",
 		"description": "",
 		"achievements": [
-			"Développement de fonctionnalités spécifiques sur l'ERP Divalto",
+			"Développement de fonctionnalités spécifiques sur l'ERP Divalto (Diva/SQLServer)",
 			"Création et maintenace d'outils internes (PHP/Python/MariaDB)"
 		],
 		"technologies": [
@@ -32,12 +32,12 @@
 			"country": "France"
 		},
 		"startDate": "01/09/2024",
-		"endDate": "",
+		"endDate": "31/12/2024",
 		"description": "Accompagnement de PME sur la numérisation de leurs process",
 		"achievements": [
 			"Développement de solutions métier sur mesure",
 			"Déploiement d'ERP Odoo",
-			"Applications web"
+			"Applications web (Python/ReactJS/PostgreSQL)"
 		],
 		"technologies": [
 			"Python",
@@ -56,7 +56,7 @@
 		},
 		"startDate": "01/04/2024",
 		"endDate": "01/07/2024",
-		"description": "Développement d'une web app pour la saisie de données dans un ERP",
+		"description": "Développement d'une web app pour la saisie de données dans un ERP (Vaadin/Java/Kotlin)",
 		"achievements": [
 			"Création d'un modèle pour l'affichage dynamique de contenu en fonction de la taille d'écran",
 			"Mise en place d'un système de contrôle de saisie",

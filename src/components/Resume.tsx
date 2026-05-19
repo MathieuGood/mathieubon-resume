@@ -14,14 +14,13 @@ const Resume: React.FC = () => {
 	const resumeRef = useRef<HTMLDivElement>(null)
 
 	useEffect(() => {
-		if (resumeRef.current) {
-			// 1123px is approx 297mm at 96dpi
-			// We use 1080px to provide a safety buffer and ensure it fits on one page
-			if (resumeRef.current.scrollHeight > 1080 && scale > 0.1) {
-				setScale(prev => prev - 0.01)
-			}
+		const el = resumeRef.current
+		if (!el) return
+		// 1123px is approx 297mm at 96dpi — 1080px gives a safety buffer
+		if (el.scrollHeight > 1080) {
+			setScale(Math.max(0.85, 1080 / el.scrollHeight))
 		}
-	}, [scale])
+	}, [])
 
 	return (
 		<div ref={resumeRef} className="resume page flex print:h-auto">
